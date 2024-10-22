@@ -42,7 +42,7 @@ const Home: React.FC = () => {
         </div>
         <div className="flex flex-col justify-center align-center mr-3 sm:mt-8">
           <div className="animate-typing flex justify-center font-bold transition-all align-center text-lg sm:text-xl mt-4">
-            Mathematics, simplified the Vedic way.
+           Calculations, Simplified!
           </div>
           
           <div className="flex justify-center align-center mt-6">

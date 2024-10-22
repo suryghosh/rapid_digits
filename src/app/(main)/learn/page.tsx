@@ -9,7 +9,7 @@ const LearnPage = () =>{
             
             <StickyWrapper>
             <Userprogress
-                activeCourse={{ title: "Addition", symbol: "+" }}
+                activeCourse={{ title: "Addition", symbol: "Addition +" }}
                 hearts={5}
                 points={100}
                 hasActiveSubscription={false}

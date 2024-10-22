@@ -10,18 +10,18 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-white text-black border-slate-200 border-2 border-b-[4px] active:border-b-2 hover:bg-slate-100 text-slate-500",
-        primary: "bg-sky-400 text-primary-foreground hover:bg-sky-400/90 border-sky-500 border-b-4 active:border-b-0",
-        primaryOutline: "bg-white text-sky-500 hover:bg-slate-100",
-        secondary: "bg-green-500 text-primary-foreground hover:bg-green-500/90 border-green-600 border-b-4 active:border-b-0",
-        secondaryOutline: "bg-white text-green-500 hover:bg-slate-100",
-        danger: "bg-red-500 text-primary-foreground hover:bg-red-500/90 border-red-600 border-b-4 active:border-b-0",
-        dangerOutline: "bg-red text-red-500 hover:bg-red-100",
-        super: "bg-indigo-500 text-primary-foreground hover:bg-indigo-500/90 border-indigo-600 border-b-4 active:border-b-0",
-        superOutline: "bg-indigo text-indigo-500 hover:bg-indigo-100",
-        ghost: "bg-transparent text-slate-500 border-transparent border-0 hover:bg-slate-100",
-        sidebar: "bg-transparent text-slate-600",
-        sidebarOutline: "text-sky-500 bg-sky-500/15 border-sky-300 border-2 hover:bg-slate-100 transition-none"
+        default: "bg-slate-800 text-slate-100 border-slate-600 border-2 border-b-[4px] active:border-b-2 hover:bg-slate-700 text-slate-300",
+        primary: "bg-black text-slate-200 hover:bg-black/90 border-slate-700 border-b-4 active:border-b-0",
+        primaryOutline: "bg-transparent text-black border-black hover:bg-slate-200",
+        secondary: "bg-slate-700 text-slate-200 hover:bg-slate-600/90 border-slate-800 border-b-4 active:border-b-0",
+        secondaryOutline: "bg-transparent text-slate-500 hover:bg-slate-200",
+        danger: "bg-slate-900 text-slate-300 hover:bg-slate-800/90 border-slate-700 border-b-4 active:border-b-0",
+        dangerOutline: "bg-transparent text-slate-500 hover:bg-slate-200",
+        super: "bg-slate-900 text-slate-200 hover:bg-slate-800/90 border-slate-700 border-b-4 active:border-b-0",
+        superOutline: "bg-transparent text-slate-600 hover:bg-slate-200",
+        ghost: "bg-transparent text-slate-400 border-transparent hover:bg-slate-200",
+        sidebar: "bg-transparent text-slate-500",
+        sidebarOutline: "text-slate-600 bg-slate-600/10 border-slate-400 border-2 hover:bg-slate-200 transition-none"
       },
       size: {
         default: "h-11 px-4 py-2",
@@ -37,6 +37,7 @@ const buttonVariants = cva(
     },
   }
 )
+
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
